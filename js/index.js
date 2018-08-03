@@ -14,8 +14,6 @@ function fibonachi(n) {
     return two;
 }
 
-
-
 function fibonachiArray(n) {
     let fibNums = [1, 1];
     for (let i = 3; i <= n; i++) {
@@ -25,17 +23,12 @@ function fibonachiArray(n) {
     return fibNums[n - 1];
 }
 
-
-
 function fibonachiRecursion(n) {
     return n <= 1 ? n : fibonachiRecursion(n - 1) + fibonachiRecursion(n - 2);
 }
 
-
-
 const resultRecursion = fibonachiRecursion(n);
 const resultArray = fibonachiArray(n);
-
 const result = fibonachi(n);
 
-alert('😺 мяу результат з циклу = <br>' + result + ' результат з массиву= <br>' + resultArray + 'результат з рекурсії =' + resultRecursion);
+alert('😺 мяу результат з циклу = ' + result + ' результат з массиву= ' + resultArray + 'результат з рекурсії =' + resultRecursion);
