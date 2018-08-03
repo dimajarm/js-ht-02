@@ -31,4 +31,4 @@ const resultRecursion = fibonachiRecursion(n);
 const resultArray = fibonachiArray(n);
 const result = fibonachi(n);
 
-alert('😺 мяу результат з циклу = ' + result + ' результат з массиву= ' + resultArray + 'результат з рекурсії =' + resultRecursion);
+alert('мяу 😺  результат з циклу = ' + result + ' результат з массиву= ' + resultArray + ' результат з рекурсії =' + resultRecursion);
